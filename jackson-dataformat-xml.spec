@@ -1,16 +1,14 @@
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          jackson-dataformat-xml
 Version:       2.4.2
-Release:       1%{?dist}
+Release:       1.1
+Group:		Development/Java
 Summary:       XML data binding extension for Jackson
 License:       ASL 2.0
 URL:           http://wiki.fasterxml.com/JacksonExtensionXmlDataBinding
 Source0:       https://github.com/FasterXML/jackson-dataformat-xml/archive/%{name}-%{version}.tar.gz
 
-%if %{?fedora} > 20
 BuildRequires: mvn(com.fasterxml.jackson:jackson-parent:pom:)
-%else
-BuildRequires: mvn(com.fasterxml.jackson:jackson-parent)
-%endif
 BuildRequires: mvn(com.fasterxml.jackson.core:jackson-annotations)
 BuildRequires: mvn(com.fasterxml.jackson.core:jackson-core)
 BuildRequires: mvn(com.fasterxml.jackson.core:jackson-databind)
