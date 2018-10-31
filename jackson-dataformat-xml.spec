@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          jackson-dataformat-xml
 Version:       2.4.2
-Release:       1.2
+Release:       1.3
 Group:		Development/Java
 Summary:       XML data binding extension for Jackson
 License:       ASL 2.0
