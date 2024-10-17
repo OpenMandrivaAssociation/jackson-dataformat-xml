@@ -5,7 +5,7 @@ Release:       1.3
 Group:		Development/Java
 Summary:       XML data binding extension for Jackson
 License:       ASL 2.0
-URL:           http://wiki.fasterxml.com/JacksonExtensionXmlDataBinding
+URL:           https://wiki.fasterxml.com/JacksonExtensionXmlDataBinding
 Source0:       https://github.com/FasterXML/jackson-dataformat-xml/archive/%{name}-%{version}.tar.gz
 
 BuildRequires: mvn(com.fasterxml.jackson:jackson-parent:pom:)
